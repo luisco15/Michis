@@ -1,0 +1,87 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;/*
+    background: -webkit-linear-gradient(#C13206, #4b53ec);
+    background: -moz-linear-gradient(#C13206, #4b53ec);
+    background: -o-linear-gradient(#C13206, #4b53ec);
+    background: linear-gradient(#C13206, #4b53ec);*/
+    background-color: transparent;
+    background-image: url("../../img/Fondo3.jpg");
+    background-repeat: no-repeat;
+    /*background-position: right top;*/
+    background-size: 100% 100%;
+ 
+}
+/*
+.login div img {
+    object-fit: contain;
+    height: 250px;
+}
+.login div {
+    display: flex;
+    flex-direction: column;
+}
+.login button {
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+}
+.login button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+*/
+
+@keyframes tipsy {
+    0 {
+      transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+  }
+  
+  .Demo {
+    font-family: helvetica, arial, sans-serif;
+    background-color: #2e2e31;
+  }
+  
+  .Demo a {
+    color: #fffbf1;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .Demo a:before,
+  .Demo a:after {
+    content: '';
+    padding: .9em .4em;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    display: block;
+    border: 5px solid whitesmoke;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+  }
+  
+  .Demo a:before {
+    border-color: whitesmoke whitesmoke rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+  }
+  
+  .Demo a:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) whitesmoke whitesmoke;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+  }

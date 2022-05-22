@@ -1,0 +1,63 @@
+.messageSender {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+/* top section */
+.messageSenderTop {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding-bottom: 15px;
+    padding: 5px;
+}
+.messageSenderTop form {
+    flex: 1;
+    display: flex;
+}
+.messageSenderTop form input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 99px;
+    background-color: #eff2f5;
+}
+.messageSenderTop form button {
+    
+}
+.messageSenderInput {
+    flex: 1;
+}
+
+/* bottom section */
+.messageSenderBottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+.messageSenderOption {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+.messageSenderOption img:hover {
+    background-color: #eff2f5cf;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.messageSenderOption h3 {
+    font-size: medium;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.reacciones img{
+    height: 95px;
+}
